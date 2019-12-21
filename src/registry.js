@@ -23,11 +23,12 @@ export class EventRegistry {
 	}
 
 	/**
-     * Creates a listener
+     * Fetches or creates a stream, starts listening, and returns the stream created/found
      *
      * @param {string} eventName - Must match the event listner event name
      * @param {Function} callback - Callback when event is triggered
      * @memberof EventRegistry
+	 * @returns {Stream}
      */
 	listen(eventName, callback) {
 		// Get event from registry
@@ -36,10 +37,12 @@ export class EventRegistry {
 		// Set event in registry if doesn't exist
 		if (reg) {
 			reg.listen(callback);
+			return reg;
 		} else {
 			const stream = new Stream();
 			stream.listen(callback);
 			this.registry.set(eventName, stream);
+			return stream;
 		}
 	}
 }

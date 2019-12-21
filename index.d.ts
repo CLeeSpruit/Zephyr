@@ -2,7 +2,7 @@ export function Listen(element: HTMLElement, type: string, callback: Function, o
 
 export class EventRegistry {
     sendEvent(eventName: string, data: any): void;
-    listen(eventName: string, callback: Function);
+    listen(eventName: string, callback: Function): Stream;
 }
 
 export class Stream {
