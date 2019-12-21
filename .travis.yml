@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "lts/*"
+
+jobs:
+  include:
+    - stage: install
+      script: npm install
+      skip_cleanup: true
+    - stage: test
+      script:
+        - npm run test
+        - codecov
+      skip_cleanup: true
+    - stage: dist
+      script:
+      - npm run build
+      - npx semantic-release
+      if: branch = master
