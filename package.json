@@ -5,13 +5,29 @@
     "main": "dist/zephyr.js",
     "files": [
         "dist/**/*",
-        "zephyr.d.ts"
+        "index.d.ts"
     ],
     "scripts": {
         "build": "webpack-cli",
         "lint": "xo",
-        "test": "nyc --reporter=lcov ava"
+        "test": "nyc --reporter=lcov ava",
+        "semantic-release": "semantic-release"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CassandraSpruit/Zephyr.git"
+    },
+    "keywords": [
+        "library",
+        "javascript",
+        "events"
+    ],
+    "author": "Cassandra Spruit",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/CassandraSpruit/Zephyr/issues"
+    },
+    "homepage": "https://github.com/CassandraSpruit/Zephyr#readme",
     "devDependencies": {
         "@babel/core": "^7.7.7",
         "@babel/preset-env": "^7.7.7",
