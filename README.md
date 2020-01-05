@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/CassandraSpruit/Zephyr.svg?branch=master)](https://travis-ci.com/CassandraSpruit/Zephyr)
 [![codecov](https://codecov.io/gh/CassandraSpruit/Zephyr/branch/master/graph/badge.svg)](https://codecov.io/gh/CassandraSpruit/Zephyr)
-[![npm](https://img.shields.io/npm/v/@cspruit/Zephyr)](https://www.npmjs.com/package/@cspruit/Zephyr)
-[![license](https://img.shields.io/github/license/CassandraSpruit/Zephyr)](https://github.com/CassandraSpruit/Zephyrs/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@cspruit/zephyr)](https://www.npmjs.com/package/@cspruit/Zephyr)
+[![license](https://img.shields.io/github/license/CassandraSpruit/Zephyr)](https://github.com/CassandraSpruit/Zephyr/blob/master/LICENSE)
 [![Greenkeeper badge](https://badges.greenkeeper.io/CassandraSpruit/Zephyr.svg)](https://greenkeeper.io/)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
