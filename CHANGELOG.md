@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.3...v1.0.4) (2020-01-11)
+
+
+### Bug Fixes
+
+* **greenkeeper:** enabled Greenkeeper ([f6b9416](https://github.com/CassandraSpruit/Zephyr/commit/f6b9416bd3df2d871da3c6d6f2e24be4cd2d0b46))
+
+## [1.0.3](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.2...v1.0.3) (2020-01-09)
+
 ## [1.0.2](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.1...v1.0.2) (2019-12-21)
 
 
