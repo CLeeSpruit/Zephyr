@@ -2,15 +2,19 @@
     "name": "@cspruit/zephyr",
     "version": "1.0.2",
     "description": "A lightweight event library",
+    "source": "./zephyr.js",
     "main": "dist/zephyr.js",
+    "module": "dist/zephyr.mjs",
+    "unpkg": "dist/zephyr.umd.js",
     "files": [
         "dist/**/*",
         "index.d.ts"
     ],
     "scripts": {
-        "build": "webpack-cli",
+        "build": "npm run flush && microbundle",
         "lint": "xo",
         "test": "nyc --reporter=lcov ava",
+        "flush": "rm -r ./dist || true",
         "semantic-release": "semantic-release"
     },
     "repository": {
@@ -37,6 +41,7 @@
         "babel-loader": "^8.0.6",
         "browser-env": "^3.3.0",
         "codecov": "^3.6.1",
+        "microbundle": "^0.11.0",
         "nyc": "^14.1.1",
         "semantic-release": "^15.14.0",
         "webpack": "^4.41.4",
