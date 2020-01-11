@@ -1,6 +1,6 @@
 {
     "name": "@cspruit/zephyr",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A lightweight event library",
     "source": "./zephyr.js",
     "main": "dist/zephyr.js",

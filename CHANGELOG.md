@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.4...v1.0.5) (2020-01-11)
+
+
+### Bug Fixes
+
+* **npm:** added missing info ([5681b93](https://github.com/CassandraSpruit/Zephyr/commit/5681b93e2579ff398ae64e2fdb70929a228b6352))
+* **pkg:** switched to microbundle ([17950e3](https://github.com/CassandraSpruit/Zephyr/commit/17950e36d94baa382b2fceecbe08c3f51b736727))
+
 ## [1.0.4](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.3...v1.0.4) (2020-01-11)
 
 
