@@ -1,3 +1,5 @@
+## [1.0.6](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.5...v1.0.6) (2020-01-29)
+
 ## [1.0.5](https://github.com/CassandraSpruit/Zephyr/compare/v1.0.4...v1.0.5) (2020-01-11)
 
 
