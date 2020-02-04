@@ -10,7 +10,7 @@ Zephyr is a lightweight javascript library that handles events and streams.
 
 ## Installation
 
-- Install by running ```npm install --save-dev @cspruit/zephyr``` in the same directory as the package.json file lives.
+- Install by running ```npm install --save @cspruit/zephyr``` in the same directory as the package.json file lives.
 
 ## Usage
 
